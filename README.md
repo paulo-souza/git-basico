@@ -11,7 +11,7 @@
 >5. [Comandos Básicos] (https://github.com/paulo-souza/git-basico#comandos-básicos)
    - [Trabalhando com Tags](https://git-scm.com/book/pt-br/v1/Git-Essencial-Tagging)
    - [Colocando em Prática] (https://try.github.io)
->6. [Download do Git] (https://github.com/paulo-souza/git-basico#downloads)
+>6. [Download do Git] (https://github.com/paulo-souza/git-basico#download)
 >7. [Documentação] (https://github.com/paulo-souza/git-basico#documentação-)
 
 #Comandos Básicos
