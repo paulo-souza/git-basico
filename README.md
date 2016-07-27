@@ -71,25 +71,25 @@ git reset HEAD meu_arquivo
 ```console
 git rm meu_arquivo
 ```
-####13. Lista as tags* criadas:
+####13. Lista as Tags criadas:
 ```console
 git tag
 ```
-####14. Criação de uma tag para o atual ou último commit:
+####14. Criação de uma Tag para o atual ou último commit:
 ```console
 git tag -a nome_da_tag -m "Mensagem de referência para a tag."
 ```
-####15. Criação de uma tag para um commits específico:
+####15. Criação de uma Tag para um commit específico:
 ```console
 git tag -a nome_da_tag chave_do_commit -m "Mensagem de referência para a tag."
 ```
-16. Acessar uma tag ou branch*:
+16. Acessar uma Tag ou Branch:
 ```console
 git checkout nome_da_tag
           ou
 git checkout nome_do_branch
 ```
-####17. Remoção de uma tag
+####17. Remoção de uma Tag
 ```console
 git tag -d nome_da_tag
 ```
@@ -109,7 +109,7 @@ git branch -b nome_do_branch
 ```console
 git branch -d nome_do_branch
 ```
-####22. Realiza modificações feitas em um outro branch para o Branch CORRENTE:
+####22. Realiza modificações feitas de um outro Branch para o CORRENTE:
 ```console
 git merge outro_branch
 ```
@@ -134,7 +134,7 @@ git pull origin master
 ```
 Obs.: Nesse comando acima é feita uma mesclagem dos arquivos
 
-####27. Downloads de arquivos do servidor remoto para o branch corrente:
+####27. Downloads de arquivos do servidor remoto para o Branch corrente:
 ```console
 git fetch origin master
 ```
