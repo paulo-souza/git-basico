@@ -1,24 +1,38 @@
-#![Git logo] (http://www.ultraedit.com/assets/images/powertips/ues/git/git-icon.png)
+#[![Git logo] (http://www.ultraedit.com/assets/images/powertips/ues/git/git-icon.png)] (https://git-scm.com/)
+
+>##Índice
+>
+>1. Conceitos
+  - [O que é o Git] (https://pt.wikipedia.org/wiki/Git) 
+  - [Os três estados](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git#Os-Tr%C3%AAs-Estados)
+   - [O que é um Branch] (https://git-scm.com/book/pt-br/v1/Ramifica%C3%A7%C3%A3o-Branching-no-Git-O-que-%C3%A9-um-Branch)
+>2. [Instalando o Git] (https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git)
+>3. [Configuração inicial do Git] (https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git)
+>5. [Comandos Básicos] (https://github.com/paulo-souza/git-basico#comandos-básicos)
+   - [Trabalhando com Tags](https://git-scm.com/book/pt-br/v1/Git-Essencial-Tagging)
+   - [Colocando em Prática] (https://try.github.io)
+>6. [Download do Git] (https://github.com/paulo-souza/git-basico#downloads)
+>7. [Documentação] (https://github.com/paulo-souza/git-basico#documentação-)
 
 #Comandos Básicos
 
-####1. Iniciar o git no diretório corrente:
+####1. Iniciando o Git no diretório corrente:
 ```console
 git init
 ```
 
-####2. Informação sobre o estado de arquivos e diretórios que estão sendo gerenciados pelo git:
+####2. Informação sobre o estado de arquivos e diretórios que estão sendo gerenciados pelo Git:
 ```console
 git status
 ```
 
-####3. Envio de arquivos e diretórios para staging area* :
+####3. Envio de arquivos e diretórios para staging area:
 ```console 
 git add nome_do_meu_arquivo
   ou
 git add .
 ```
-####4. Envio de todos os arquivos da staging area para serem gerenciados pelo git:
+####4. Envio de todos os arquivos da staging area para serem gerenciados pelo Git:
 ```console
 git commit -m "Aqui eu escrevo a minha msg."
 ```
@@ -53,7 +67,7 @@ git checkout -- meu_arquivo
 ```console
 git reset HEAD meu_arquivo
 ```
-####12. Remoção de um arquivo do sistema de gerenciamento de versão(git):
+####12. Removendo um arquivo do Git:
 ```console
 git rm meu_arquivo
 ```
@@ -79,23 +93,23 @@ git checkout nome_do_branch
 ```console
 git tag -d nome_da_tag
 ```
-####18. Lista os branchs e mostra qual deles é o corrente:
+####18. Listar os Branchs e mostra qual deles é o corrente:
 ```console
 git branch
 ```
-####19.  Criação de um branch:
+####19.  Criação de um Branch:
 ```console
 git branch nome_do_branch
 ```
-####20. Criação e mudança de branch:
+####20. Criação e mudança de Branch:
 ```console
 git branch -b nome_do_branch
 ```
-####21. Remoção de um branch:
+####21. Remoção de um Branch:
 ```console
 git branch -d nome_do_branch
 ```
-####22. Realiza modificações feitas em um outro branch para o branch CORRENTE:
+####22. Realiza modificações feitas em um outro branch para o Branch CORRENTE:
 ```console
 git merge outro_branch
 ```
@@ -110,11 +124,11 @@ Caso não queira o git cria uma com o nome do diretório do servidor remoto que 
 ```console
 git remote -v
 ```
-####25. Envio de arquivos e diretórios do branch corrente para um servidor remoto:
+####25. Envio de arquivos e diretórios do Branch corrente para um servidor remoto:
 ```console
 git push origin master
 ```
-####26. Atualização de arquivos do servidor remoto com o branch corrente:
+####26. Atualização de arquivos do servidor remoto com o Branch corrente:
 ```console
 git pull origin master
 ```
@@ -126,7 +140,7 @@ git fetch origin master
 ```
 Obs.: Nesse comando acima é feito somente o download dos arquivos sem mesclar.
 
-##Downloads
+##Download
 https://git-scm.com/download
 
 ## Documentação [![Inline docs](http://inch-ci.org/github/gorails/gorails.svg?branch=master)](https://git-scm.com/doc)
