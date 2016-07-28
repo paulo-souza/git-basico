@@ -101,9 +101,9 @@ git branch
 ```console
 git branch nome_do_branch
 ```
-####20. Criação e mudança de Branch:
+####20. Cria e troca para um novo Branch:
 ```console
-git branch -b nome_do_branch
+git checkout -b novo_branch
 ```
 ####21. Remoção de um Branch:
 ```console
@@ -132,13 +132,10 @@ git push origin master
 ```console
 git pull origin master
 ```
-Obs.: Nesse comando acima é feita uma mesclagem dos arquivos
+Obs.: Nesse comando acima é feita uma mesclagem dos arquivos. 
+Por isso recomenda-se a criação de um Branch separado. 
 
-####27. Downloads de arquivos do servidor remoto para o Branch corrente:
-```console
-git fetch origin master
-```
-Obs.: Nesse comando acima é feito somente o download dos arquivos sem mesclar.
+
 
 ##Download
 https://git-scm.com/download
