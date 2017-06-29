@@ -1,4 +1,4 @@
-#[![Git logo] (http://www.ultraedit.com/assets/images/powertips/ues/git/git-icon.png)] (https://git-scm.com/)
+#[![Git logo] (http://kazale.com/wp-content/uploads/2017/04/git_logo-300x300.png)] (https://git-scm.com/)
 
 >##Índice
 >
