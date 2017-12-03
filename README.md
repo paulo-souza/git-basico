@@ -1,17 +1,17 @@
 ![git](https://cdn.iconscout.com/public/images/icon/free/png-128/git-logo-brand-development-tools-3078ae939d610291-128x128.png)
 >  ## :octocat: Índice  
 
->1. Conceitos
+1. Conceitos
   - [O que é o Git](https://pt.wikipedia.org/wiki/Git) 
   - [Os três estados](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git#Os-Tr%C3%AAs-Estados)
    - [O que é um Branch](https://git-scm.com/book/pt-br/v1/Ramifica%C3%A7%C3%A3o-Branching-no-Git-O-que-%C3%A9-um-Branch)
->2. [Instalando o Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git)
->3. [Configuração inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git)
->5. [Comandos Básicos](https://github.com/paulo-souza/git-basico#comandos-básicos)
+2. [Instalando o Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git)
+3. [Configuração inicial do Git](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Configura%C3%A7%C3%A3o-Inicial-do-Git)
+5. [Comandos Básicos](https://github.com/paulo-souza/git-basico#comandos-básicos)
    - [Trabalhando com Tags](https://git-scm.com/book/pt-br/v1/Git-Essencial-Tagging)
    - [Colocando em Prática](https://try.github.io)
->6. [Download do Git](https://github.com/paulo-souza/git-basico#download)
->7. [Documentação](https://github.com/paulo-souza/git-basico#documentação-)
+6. [Download do Git](https://github.com/paulo-souza/git-basico#download)
+7. [Documentação](https://github.com/paulo-souza/git-basico#documentação-)
 
 # Comandos Básicos
 
@@ -54,7 +54,7 @@ git log
 git log --pretty=oneline
 ```
 
-#### . Edita o último commit realizado para que possa adicionar novos arquivos nele:
+#### 9. Edita o último commit realizado para que possa adicionar novos arquivos nele:
 ```console
 git commit --amend -m "mensagem editada"
 ```
@@ -82,7 +82,7 @@ git tag -a nome_da_tag -m "Mensagem de referência para a tag."
 ```console
 git tag -a nome_da_tag chave_do_commit -m "Mensagem de referência para a tag."
 ```
-16. Acessar uma Tag ou Branch:
+#### 16. Acessar uma Tag ou Branch:
 ```console
 git checkout nome_da_tag
           ou
