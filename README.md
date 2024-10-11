@@ -1,4 +1,4 @@
-![git](https://cdn.iconscout.com/public/images/icon/free/png-128/git-logo-brand-development-tools-3078ae939d610291-128x128.png)
+![git](https://cdn.iconscout.com/icon/free/png-512/free-git-logo-icon-download-in-svg-png-gif-file-formats--wordmark-programming-langugae-language-pack-logos-icons-1175220.png?f=webp&w=256)
 >  ## :octocat: Índice  
 
 1. Conceitos
